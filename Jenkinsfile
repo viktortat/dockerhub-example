@@ -15,6 +15,11 @@ pipeline {
         sh './jenkins/login.sh'
       }
     }
+    stage('Build') {
+      steps {
+        sh './jenkins/build.sh'
+      }
+    }
   }
   post {
     always {
