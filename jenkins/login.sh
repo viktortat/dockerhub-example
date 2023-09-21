@@ -9,4 +9,4 @@
 
 env | sort
 
-echo $DOCKERHUB_CREDENTIALS_PSW | docker login -u $DOCKERHUB_CREDENTIALS_PSW_USR --password-stdin
+echo 'dckr_pat_0vjOtCPrYMXsLwnRFOIXp29UxPM' | docker login -u $DOCKERHUB_CREDENTIALS_PSW_USR --password-stdin
