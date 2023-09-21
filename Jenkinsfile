@@ -5,7 +5,7 @@ pipeline {
   }
   environment {
     DOCKERHUB_CREDENTIALS_USR777 = 'tavis177'
-    DOCKERHUB_CREDENTIALS_PSW = 'dckr_pat_0vjOtCPrYMXsLwnRFOIXp29UxPM'
+    DOCKERHUB_CREDENTIALS_PSW777 = 'dckr_pat_0vjOtCPrYMXsLwnRFOIXp29UxPM'
     // DOCKERHUB_CREDENTIALS_PSW = 'dckr_pat_0vjOtCPrYMXsLwnRFOIXp29UxPM'
     DOCKERHUB_CREDENTIALS_PSW = credentials('darinpope-dockerhub')
   }
