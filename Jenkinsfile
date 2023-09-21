@@ -17,9 +17,7 @@ pipeline {
     }
     stage('Build') {
       steps {
-        // sh './jenkins/build.sh'
-        docker pull alpine:3.13.5
-        docker build -t tavis1/dp-alpine:latest .
+        sh './jenkins/build.sh'
       }
     }
   }
