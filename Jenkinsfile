@@ -4,7 +4,8 @@ pipeline {
     buildDiscarder(logRotator(numToKeepStr: '5'))
   }
   environment {
-    DOCKERHUB_CREDENTIALS = credentials('darinpope-dockerhub')
+    DOCKERHUB_CREDENTIALS_USR = 'tavis1'
+    DOCKERHUB_CREDENTIALS_PSW = credentials('darinpope-dockerhub')
   }
   stages {
     stage('Build') {
